@@ -208,3 +208,4 @@
 
 })(jQuery);
 
+// For Navbar
