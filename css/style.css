@@ -10239,11 +10239,12 @@ textarea.form-control {
 
 
 /* Navbar  */
+
 .navbar-brand.d-flex.align-items-center img {
   height: 80px;
   width: 80px;
-  padding: 7px;
-  background: #ffffff;
+  /* padding: 7px;
+  background: #ffffff; */
   border-radius: 50%;
   margin-right: 15px;
   object-fit: contain;
@@ -10257,6 +10258,7 @@ textarea.form-control {
       margin-right: 10px;
   }
 }
+
 /* For Blog page  */
 
 .blog-content {
