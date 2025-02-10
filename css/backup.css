@@ -1,0 +1,96 @@
+.ftco_navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 16px 20px;
+    z-index: 1030;
+    transition: all 0.3s ease-out;
+    backdrop-filter: blur(10px) brightness(1.1);
+    -webkit-backdrop-filter: blur(10px) brightness(1.1);
+    background: rgba(255, 255, 255, 0.6) !important; /* More transparent */
+  }
+  
+  /* Scroll effect */
+  .ftco_navbar.scrolled {
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.85) !important; /* More transparent when scrolled */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 991.98px) {
+    .ftco_navbar {
+      background: #fff !important;
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      padding: 15px;
+    }
+  }
+  
+  /* Navbar text colors */
+  .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.1);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.9) !important;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #000 !important;
+    font-weight: 600;
+  }
+  
+  /* CTA button */
+  .navbar-nav .nav-item.cta .nav-link {
+    background: #fd645b;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    border-radius: 5px;
+    text-shadow: none;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, 0.8) !important;
+        text-shadow: none;
+    }
+    
+    .navbar-toggler {
+        color: rgba(0, 0, 0, 0.7) !important;
+    }
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand span {
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand:hover span {
+    color: rgba(0, 0, 0, 1) !important;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-brand span {
+        color: rgba(0, 0, 0, 0.9) !important;
+        text-shadow: none;
+    }
+  }
+
+
+
+  /* it was in index */
+  <img src="images/rana-logo.png" alt="Rana Foundation Logo" style="height: 60px; margin-right: 10px;">
