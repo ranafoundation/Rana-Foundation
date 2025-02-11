@@ -4,3 +4,7 @@ Disallow: /private/
 Allow: /
 
 Sitemap: https://ranafoundation.org/sitemap.xml
+
+User-agent: *
+Allow: /
+Sitemap: https://ranafoundation.org/sitemap.xml
