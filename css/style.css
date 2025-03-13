@@ -10395,7 +10395,6 @@ For Team  */
 
 
 /* twitter feed */
-
 .twitter-feed-container {
   max-width: 100%;
   margin: 0 auto;
@@ -10403,19 +10402,16 @@ For Team  */
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.twitter-timeline {
-  width: 100% !important;
+.twitter-tweet {
+  margin: 0 !important;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .twitter-feed-container {
       padding: 10px;
-  }
-  
-  .twitter-timeline {
-      height: 400px !important;
   }
 }
