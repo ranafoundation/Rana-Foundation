@@ -10392,3 +10392,30 @@ For Team  */
       min-height: 2200px;  /* Increased height for mobile */
   }
 }
+
+
+/* twitter feed */
+
+.twitter-feed-container {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.twitter-timeline {
+  width: 100% !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .twitter-feed-container {
+      padding: 10px;
+  }
+  
+  .twitter-timeline {
+      height: 400px !important;
+  }
+}
